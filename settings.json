@@ -1,0 +1,24 @@
+{
+    "public": {
+        "banner1": {
+            "link": "http://we.duolayimeng.com:9090/",
+            "img_bg": "http://img.duolayimeng.com/pc/ex_banner.jpg@!768w"
+        },
+        "banner2": {
+            "link": "",
+            "img_bg": ""
+        },
+        "banner3": {
+            "link": "",
+            "img_bg": ""
+        },
+        "banner4": {
+            "link": "",
+            "img_bg": ""
+        },
+        "banner5": {
+            "link": "",
+            "img_bg": ""
+        }
+    }
+}
