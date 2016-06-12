@@ -1,0 +1,64 @@
+#header{
+    position: relative;
+    padding: 40px 10px 20px 10px;
+    z-index: 99999999999;
+    border-bottom: 1px solid silver;
+    .logo{
+        border-right: 1px solid rgb(159,159,159);
+        padding-right: 5%;
+        width: 22.2%;
+        min-width: 188px;
+        display: inline-block;
+        box-sizing: border-box;
+        img{
+            width: 100%;
+        }
+        img:hover{
+            cursor: pointer;
+        }
+    }
+    .menu{
+        width: 40%;
+        display: inline-block;
+        bottom: 11%;
+        height: 16px;
+        line-height: 16px;
+        ul{
+            z-index: 1000;
+            width: 100%;
+            li{
+                display: inline-block;
+                width: 20%;
+                text-align: center;
+                color: #444;
+                font-size: 15px;
+                &:hover{
+                    cursor: pointer;
+                    a{
+                        color: rgb(222,79,79);
+                    }
+                }
+            }
+        }
+        .active {
+            color: #e78170;
+        }
+    }
+    .operate{
+        display: inline-block;
+        float: right;
+        li {
+            display: inline-block;
+        }
+    } 
+    .min-menu{
+        display: none;
+        width:40px;
+        position: absolute;
+        top: 5%;
+        right: 10%;
+        img{
+            width:100%;
+        }
+    }
+}

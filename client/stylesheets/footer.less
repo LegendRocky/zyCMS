@@ -1,0 +1,41 @@
+#footer{
+    width: 100%;
+    min-width: 1024px;
+    position: fixed;
+    bottom: -5px;
+    img{
+        width: 100%;
+    }
+    .contact-list{
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        top: 10%;
+        ul{
+            width: 34%;
+            margin: 0.8em auto;
+            li{
+                width: 20%;
+                display: inline-block;
+                text-align: center;
+                font-size: 0.9em;
+                border-right: 1px solid black;
+                box-sizing: border-box;
+                &:hover{
+                    cursor: pointer;
+                    a{
+                        color: rgb(222,79,79);
+                    }
+                    
+                }
+            }
+            li:last-child{
+                border-right: none;
+            }
+        }
+        div.copyright{
+            font-size: 0.8em;
+            color: #666;
+        }
+    }
+}
